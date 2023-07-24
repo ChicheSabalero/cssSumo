@@ -1,0 +1,89 @@
+* {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  grid-row: 1fr;
+  grid-column: 1fr;
+  margin-top: 0;
+}
+
+.logo {
+  display: grid;
+  grid-row: 1fr;
+  grid-column: 1fr;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  align-self: center;
+  justify-content: center;
+  align-self: center;
+  width: 500px;
+}
+/*******************/
+body {
+  display: grid;
+  grid-row: 1fr;
+  grid-column: 1fr;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+article {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 20px;
+  width: 300px;
+  border: 3px solid red;
+  border-radius: 15px;
+  margin: 15px;
+}
+
+.cover {
+  border-radius: 15px;
+  width: 300px;
+  border: red 3px solid;
+  border-radius: 15px;
+}
+.titulo {
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  border: red 3px solid;
+  border-radius: 15px;
+  padding: 10px;
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.playlist {
+  color: red;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+.track {
+  color: white;
+  margin-bottom: 2px;
+}
+.divprod {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+}
+.prod {
+  color: red;
+  font-size: 24px;
+}
